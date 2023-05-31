@@ -5,7 +5,7 @@ public class Controlflow {
     public static String hasTooManyPeople(int numberOfPeople) {
         if (numberOfPeople > 30) {
             return "too many people!";
-        } else if (numberOfPeople > 30) {
+        } else if (numberOfPeople < 30) {
             return "not too many people!";
         } else {
             return "not too many people, but almost!";
